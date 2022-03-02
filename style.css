@@ -1,0 +1,34 @@
+.Big-Container {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    margin-top: 17%;
+    margin-left: 25%;
+    width: 50%;
+    height: 300px; 
+    background-color: #7f3eca;
+    border-radius: 10px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 27px;
+    font-weight: bolder;
+}
+
+.button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    width: 30%;
+    padding: 1%;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: 0.4s;
+	cursor: pointer;
+    color: #7f3eca;
+}
+button:hover {
+    background-color: lightblue;
+}
